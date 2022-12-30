@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Karla:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Overpass:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  margin-bottom: 50px;
 }
 .attribution a { 
   color: hsl(228, 45%, 44%);
@@ -20,7 +22,7 @@ font-family: 'Poppins', sans-serif; */
   display: grid;
   height: 70vh;
   width: 700px ;
-  margin: 200px auto;
+  margin: 200px auto 100px auto;
   grid-template-rows: 1fr 1fr ;
   /* grid-template-rows: auto;
   grid-template-columns: 25% 25% ; */
@@ -86,6 +88,8 @@ h2{
  border-radius: 5px;
  border: none;
  box-shadow: 0px 2px 0px 0px solid black;
+ font-weight: 700;
+ font-size: 16px;
 }
 .third li{
   color: hsl(204, 43%, 93%);
